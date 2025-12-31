@@ -9,7 +9,7 @@ struct node *head=NULL;
 void create(){
     int n,value;
     struct node *temp, *newnode;
-    printf("ENter the number of nodes: ");
+    printf("Enter the number of nodes: ");
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         newnode=(struct node*)malloc(sizeof(struct node));
